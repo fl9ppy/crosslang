@@ -26,9 +26,7 @@ from .runners.php_runner import _run_php
 from .runners.perl_runner import _run_perl
 from .runners.scala_runner import _run_scala
 from .runners.shell_runner import _run_shell
-from .runners.swift_runner import _run_swift
 from .runners.kotlin_runner import _run_kotlin
-from .runners.haskwell_runner import _run_haskell 
 
 language_runners = {
     'rust': _run_rust,
@@ -43,7 +41,5 @@ language_runners = {
     'perl': _run_perl,
     'scala': _run_scala,
     'shell': _run_shell,
-    'swift': _run_swift,
     'kotlin': _run_kotlin,
-    'haskell': _run_haskell,
 }

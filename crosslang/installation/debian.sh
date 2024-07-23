@@ -25,19 +25,11 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 
     sudo apt-get install -y scala
 
-    sudo apt-get install -y clang libicu-dev
-    wget https://swift.org/builds/swift-5.4.2-release/ubuntu2004/swift-5.4.2-RELEASE/swift-5.4.2-RELEASE-ubuntu20.04.tar.gz
-    tar xzf swift-5.4.2-RELEASE-ubuntu20.04.tar.gz
-    sudo mv swift-5.4.2-RELEASE-ubuntu20.04 /usr/local/swift
-    export PATH=/usr/local/swift/usr/bin:"${PATH}"
-
     sudo apt-get install -y default-jre
     wget https://github.com/JetBrains/kotlin/releases/download/v1.5.21/kotlin-compiler-1.5.21.zip
     unzip kotlin-compiler-1.5.21.zip
     sudo mv kotlinc /usr/local/kotlinc
     export PATH=/usr/local/kotlinc/bin:"${PATH}"
-
-    sudo apt-get install -y haskell-platform
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
@@ -56,9 +48,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install php
     brew install perl
     brew install scala
-    brew install swift
     brew install kotlin
-    brew install haskell-stack
 
 else
     echo "Unsupported OS. Please install the necessary compilers and interpreters manually."

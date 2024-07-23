@@ -2,7 +2,7 @@
 # **Intro**
 CrossLang is a Python library that allows developers to run code written in various programming languages directly from their Python scripts. This can be particularly useful for multi-language projects, testing, and automation.
 
-Supports multiple programming languages including Rust, C, Java, Ruby, Lua, Go, JavaScript, PHP, Perl, Scala, Shell, Swift, Kotlin, and Haskell.
+Supports multiple programming languages including Rust, C, Java, Ruby, Lua, Go, JavaScript, PHP, Perl, Scala, Shell, and Kotlin.
 Automatically compiles and runs code snippets.
 Easy to integrate into existing Python projects.
 

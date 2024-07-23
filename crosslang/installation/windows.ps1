@@ -15,9 +15,7 @@ choco install nodejs -y
 choco install php -y
 choco install strawberryperl -y
 choco install scala -y
-choco install swift -y
 choco install kotlinc -y
-choco install haskell -y
 
 Write-Output "Installation complete. Please ensure all compilers and interpreters are in your PATH."
 

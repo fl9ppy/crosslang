@@ -11,9 +11,7 @@ from .php_runner import _run_php
 from .perl_runner import _run_perl
 from .scala_runner import _run_scala
 from .shell_runner import _run_shell
-from .swift_runner import _run_swift
 from .kotlin_runner import _run_kotlin
-from .haskell_runner import _run_haskell
 
 __all__ = [
     '_run_rust',
@@ -27,8 +25,6 @@ __all__ = [
     '_run_perl',
     '_run_scala',
     '_run_shell',
-    '_run_swift',
     '_run_kotlin',
-    '_run_haskell'
 ]
 
