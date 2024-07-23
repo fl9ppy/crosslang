@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='python-crosslang',
-    version='0.1.5',
+    version='0.1.6',
     author='fl9ppy',
     author_email='adi.calinescu16@gmail.com',
     description='A Python library to run code from multiple programming languages.',
